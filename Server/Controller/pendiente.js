@@ -1,13 +1,13 @@
-// const createPendiente=()=>{}
+const createPendiente=(req,res)=>{}
 const readPendiente=(req,res)=>{
     res.send(200)
 }
-// const modifyPendiente=()=>{}
-// const deletePendiente=()=>{}
+const modifyPendiente=(req,res)=>{}
+const deletePendiente=(req,res)=>{}
 
 module.exports = {
-    // createPendiente,
-    readPendiente
-    // modifyPendiente,
-    // deletePendiente
+    createPendiente,
+    readPendiente,
+    modifyPendiente,
+    deletePendiente
 };
