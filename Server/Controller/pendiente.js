@@ -1,6 +1,6 @@
 const createPendiente=(req,res)=>{}
 const readPendiente=(req,res)=>{
-    res.send(200)
+    res.json({result:{message:'hola k hace?'}})
 }
 const modifyPendiente=(req,res)=>{}
 const deletePendiente=(req,res)=>{}
