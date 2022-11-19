@@ -1,5 +1,6 @@
 const express = require('express')
 const pendienteController=require('./Controller/pendiente.js')
+//const {readPendiantes}=require('./Controller/pendientes.js')
 const server = express()
 //middle ware 
 server.use(express.json())
@@ -10,10 +11,13 @@ server.use(express.json())
 //put modifica
 
 server.route('/pendiente')
-.post(pendienteController.createPendiente)
+// .post(pendienteController.createPendiente)
 .get(pendienteController.readPendiente)
-.put(pendienteController.modifyPendiente)
-.delete(pendienteController.deletePendiente);
+// .put(pendienteController.modifyPendiente)
+// .delete(pendienteController.deletePendiente);
+
+// server.route('/pendientes')
+// .get(readPendiantes)
 
 // server.post('/pendiente', (req, res) => {
 //     res.send('hola ')

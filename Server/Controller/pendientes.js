@@ -1,5 +1,5 @@
 
-const readPendiente=()=>{}
+const readPendientes=()=>{}
 module.exports = {
-    readPendiente
+    readPendientes
 };
